@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta *name*="description" *content*="Página mostrando orfanatos/casas de acolhimento da cidade">
+    <meta *name*="keywords" *content*="orfanato, orfanatos, crianças, casa de acolhimento, Happy">
+    <meta *name*="author" *content*="Caio Daló de Souza, RocketSeat">
+
+    <title>Saiba mais | Happy</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <link rel="icon" href="/images/logo-icon.png">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/read-more.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="read-more" class="animate-appear">
+        <aside class="animate-right sidebar">
+            <img src="/images/map-marker.svg" alt="Happy">
+
+            <footer>
+                <button onclick="history.back()">
+                    <img src="/images/arrow-back.svg" alt="Voltar">
+                </button>
+            </footer>
+        </aside>
+    
+
+        <main class="animate-appear with-sidebar">
+            <div class="read-more-details">
+
+                <div class="bg-img">
+                    <div class="overlay"></div>
+                    <h1>Saiba mais sobre o projeto</h1>
+                </div>
+
+                <div class="read-more-details-content">
+                    <div>
+                        <h2>Motivação do app Happy <img src="./images/logo-icon.png" alt="Logo do app Happy"></h2>
+
+                        <p>O app Happy foi criando em Outubro de 2020. Pensando no dia das crianças, a motivação foi poder ajudar às que necessitavam de e amor e carinho, facilitando o encontro entre elas e quem quisesse proporcionar isso à elas.</p>
+                    </div>
+
+                    <div>
+                        <h2>O app Happy <img src="./images/logo-icon.png" alt="Logo do app Happy"></h2>
+
+                        <p>Idealizado pela RocketSeat, o app Happy foi pensando para a NextLevelWeek #3, onde todo o desenvolvimento aconteceu ao longo de uma semana intensa. Desafiador, o app Happy se mostrou viável para reais aplicações, visto que sua proposta busca construir uma sociedade melhor, facilitando o encontro de quem quer dar e receber amor e carinho na sua forma mais pura.</p>
+                    </div>
+
+                    <div>
+                        <h4>Adote uma criança</h4>
+                    </div>
+                </div><!--read-more-content-->
+            </div><!--read-more-details-->
+        </main>
+    </div><!--read-more-->
+</body>
+</html>

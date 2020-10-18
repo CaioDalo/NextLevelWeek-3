@@ -1,0 +1,83 @@
+#read-more {
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.read-more-details {
+    width: 70rem;
+    margin: 6.4rem auto;
+    background-color: white;
+    border: 1px solid #d3e2e5;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.read-more-details .bg-img  {
+    position: relative;
+    background-image: url(../images/children.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.bg-img .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+}
+
+.bg-img h1, .read-more-details-content h1 {
+    color: #12afcb;
+    font-size: 5.4rem;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+.bg-img h1, .read-more-details-content {
+    padding: 8rem;
+}
+
+.read-more-details-content h1, h4 {
+    color: #4d6f80;
+}
+
+.read-more-details-content p {
+    line-height: 1.6;
+    color: #5c8599;
+    margin-top: 2.4rem;
+}
+
+.read-more-details-content hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background: #b3e2e6;
+    margin: 6.4rem 0;
+}
+
+.read-more-details-content h2 {
+    font-size: 3.6rem;
+    line-height: 1.5;
+    color: #4d6f80;
+}
+
+.read-more-details-content div + div {
+    margin-top: 4rem;
+}
+
+.read-more-details-content h2 img {
+    width: 5%;
+    margin-left: 0.8rem;
+}
+
